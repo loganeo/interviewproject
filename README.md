@@ -14,13 +14,17 @@ git clone <repository-url>
 
 then in the cloned folder create a file named .env.local and in it fill out the following information:
 
+```bash
 DB_HOST=localhost
 DB_USER=*enter user name here*
 DB_PASSWORD=*enter password here*
 DB_DATABASE=*enter database name here*
+```
 
 where DB_USER is your MySQL workbench connection user name
+
 DB_PASSWORD is the password for said connection
+
 and DB_DATABASE is the name of the database you want to connect to
 
 ## Running the Website
@@ -29,6 +33,8 @@ First, run the development server
 In console or ide terminal of choice. Type
 
 ```bash
+npm install
+#then
 npm run dev
 ```
 
