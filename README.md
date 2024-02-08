@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Project developement time: 16 hours
+
 ## Getting Started
 
 What you'll need, MySQL Community, Example Dataset and Node.js
@@ -9,8 +11,10 @@ First download MySQL Community and set up a database using any dataset or the on
 then clone the git repository into location of choice:
 
 open command prompt or terminal of choice
+```bash
 cd *location of choice*
 git clone <repository-url>
+```
 
 then in the cloned folder create a file named .env.local and in it fill out the following information:
 
@@ -29,8 +33,7 @@ and DB_DATABASE is the name of the database you want to connect to
 
 ## Running the Website
 
-First, run the development server
-In console or ide terminal of choice. Type
+To run the development server you must be in the project's directory then type in console/terminal:
 
 ```bash
 npm install
