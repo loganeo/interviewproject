@@ -2,21 +2,38 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+What you'll need, MySQL Community, Example Dataset and Node.js
+
+First download MySQL Community and set up a database using any dataset or the one provided
+
+then clone the git repository into location of choice:
+
+open command prompt or terminal of choice
+cd *location of choice*
+git clone <repository-url>
+
+then in the cloned folder create a file named .env.local and in it fill out the following information:
+
+DB_HOST=localhost
+DB_USER=*enter user name here*
+DB_PASSWORD=*enter password here*
+DB_DATABASE=*enter database name here*
+
+where DB_USER is your MySQL workbench connection user name
+DB_PASSWORD is the password for said connection
+and DB_DATABASE is the name of the database you want to connect to
+
+## Running the Website
+
+First, run the development server
+In console or ide terminal of choice. Type
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
