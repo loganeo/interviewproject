@@ -22,14 +22,14 @@ then in the cloned folder create a file named .env.local and in it fill out the 
 DB_HOST=localhost
 DB_USER=*enter user name here*
 DB_PASSWORD=*enter password here*
-DB_DATABASE=*enter database name here*
+DB_DATABASE=*enter database schema name here*
 ```
 
 where DB_USER is your MySQL workbench connection user name
 
 DB_PASSWORD is the password for said connection
 
-and DB_DATABASE is the name of the database you want to connect to
+and DB_DATABASE is the name of the database schema you want to connect to
 
 ## Running the Website
 
