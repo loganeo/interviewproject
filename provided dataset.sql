@@ -1,5 +1,5 @@
 create table MOCK_DATA (
-	id INT NOT NULL,
+	id INT NOT NULL AUTO_INCREMENT,
 	first_name VARCHAR(50),
 	last_name VARCHAR(50),
 	email VARCHAR(50),

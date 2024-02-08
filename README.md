@@ -4,9 +4,9 @@ Project developement time: 16 hours
 
 ## Getting Started
 
-What you'll need, MySQL Community, Example Dataset and Node.js
+What you'll need, MySQL Community and Workbench, Example Dataset and Node.js
 
-First download MySQL Community and set up a database using any dataset or the one provided
+First download MySQL Community and set up a database using the workbench and dataset provided
 
 then clone the git repository into location of choice:
 

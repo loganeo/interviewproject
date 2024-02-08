@@ -10,7 +10,6 @@ export async function GET(req: NextRequest) {
     const connection = await pool.getConnection();
 
     const skipValue = USERS_PER_PAGE * (parseInt(pageNum as string) - 1);
-    console.log(skipValue);
     //get groups of 20 users
     const [users] = await connection.query(
       "SELECT * FROM mock_data LIMIT ? OFFSET ?",
